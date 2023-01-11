@@ -1,0 +1,15 @@
+Dynamic programming:
+Divide a large problem into smaller sub problems
+Solve the sub problem and store the result
+using the sub problem we can build the solution of the large problem
+pretty much like a recursion , but we will store the intermediary states so that we dont have to recalculate them
+
+Two approaches:-
+    1. Top down AKA Memoization
+        Breaks down problem into multiple subproblems.
+        if the subproblem is already solved, reuse the answer
+        otherwise solve the subproblem and store the result
+
+    2. bottom up AKA Tabulation
+        builds solution to large problem by solving sub problems
+        
